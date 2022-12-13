@@ -1,9 +1,10 @@
+const Img =()=>{ 
+return ( 
 
-const Img=()=>{
-    return (
-        <img className='imgg' src={tinder.jpg} alt=""/>
-      
-       
-    )
-}
-export default Img
+    <img className= 'imgg' src="{santi.jpg} alt="/>
+)
+
+
+ }
+ export default Img
+ 

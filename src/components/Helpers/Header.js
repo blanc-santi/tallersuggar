@@ -1,16 +1,24 @@
-import tinder from '../imagenes/tinder.jpg'
-const Header = ()=>{
+import santi from '../imagenes/santi.jpg'
+   
+   const Header = ()=>{
+    
     return (
         
-        <header className="header" >
-
-   <img src={tinder}/>
-   <a className='logo'href="">quejas y reclamos</a>
-   <a className='logo'href="">solicitar patrocinio</a>
-   <a className='logo'href="">buscar patrocinador </a>
-    <a className='logo'href="">buscar benefactor</a>
         
-   
+        <header className="header" >
+            
+<nav class="navbar bg-success.bg-gradient">
+       <section class="container-fluid">
+       <img className='imgg' src={santi}alt="imgg" />
+   <a className='logo'href="">Home</a>
+   <a className='logo'href="">Cliente</a>
+   <a className='logo'href="">Productos </a>
+    <a className='logo'href="">Proveedores</a>
+
+
+    <button class="btn-perfil" type="button" value="Salir">SALIR</button>
+    </section>
+    </nav>
         
    
    </header>
@@ -20,3 +28,6 @@ const Header = ()=>{
 
 }
 export default Header;
+        
+   
+        
